@@ -22,3 +22,9 @@ export default {
     }
 }
 </script>
+
+<style>
+    .respuesta__nombre{
+    text-transform: capitalize;
+    }
+</style>

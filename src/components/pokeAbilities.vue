@@ -53,3 +53,16 @@ export default {
     }
 }
 </script>
+
+<style>
+.respuesta__habilidades_centrado{
+    display: flex;
+    justify-content: center;
+}
+.habilidad__texto {
+  width: 75vw;
+}
+.habilidad__texto h3, .habilidad__texto p {
+  margin-bottom: 1rem;
+}
+</style>

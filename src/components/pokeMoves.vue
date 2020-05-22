@@ -55,12 +55,20 @@ export default {
 </script>
 
 <style>
+.movimiento__texto {
+  width: 75vw;
+}
+.movimiento__texto h3, .movimiento__texto p {
+  margin-bottom: 1rem;
+}
 .respuesta__movimientos_centrado {
   display: flex;
   justify-content: center;
 }
 
-.movimiento__texto p {
+.movimiento__texto h3, .movimiento__texto p {
   margin-bottom: 1rem;
 }
+
+
 </style>

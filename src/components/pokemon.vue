@@ -75,3 +75,33 @@ export default {
     }
 }
 </script>
+
+<style>
+    .respuesta {
+    flex-direction: column;
+    padding: 0 5%;
+    
+    }
+    .respuesta img {
+    margin-right: 5vw;
+    max-height: 150px;
+    }
+    .pokemon__card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px #bcbcbc;
+    }
+    .respuesta__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 0;
+    }
+    .respuesta__habilidades {
+    margin-bottom: 5vw;
+    }
+    .respuesta__habilidades h2, .respuesta__movimientos h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    }
+</style>
