@@ -32,7 +32,7 @@ export default {
                     this.imageURL = 'assets/not-found.png';
                 }
                 
-                console.log(this.imageURL)
+                //console.log(this.imageURL)
             } catch(err) {
                 this.imageURL = 'assets/not-found.png';
             }

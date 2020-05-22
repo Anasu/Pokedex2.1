@@ -28,7 +28,7 @@ export default {
         }
     },
     created() {
-        const urlRqst = async _ => {
+        const urlRqst = async () => {
             try {
                 // fetch ajax al link de habilidades
                 let urlMove = this.pokeMove.url;
@@ -53,3 +53,14 @@ export default {
     },
 }
 </script>
+
+<style>
+.respuesta__movimientos_centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.movimiento__texto p {
+  margin-bottom: 1rem;
+}
+</style>

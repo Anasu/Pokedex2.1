@@ -28,7 +28,7 @@ export default {
         }
     },
     created() {
-        const urlRqst = async _ => {
+        const urlRqst = async () => {
             try {
                 // fetch ajax al link de habilidades
                 let urlAbility = this.pokeAbility.url;
