@@ -1,6 +1,7 @@
 <template>
     <img :src="imageURL" 
-            alt="Pokemon Image" :id="pokeImgUrl">
+          alt="Pokemon Image" 
+         :id="pokeImgUrl">
 </template>
 
 <script>
